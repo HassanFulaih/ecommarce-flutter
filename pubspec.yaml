@@ -1,0 +1,44 @@
+name: shop
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  provider: ^6.0.2
+  intl: ^0.17.0
+  shared_preferences: ^2.0.12
+  rating_dialog: ^2.0.3
+  store_redirect: ^2.0.0
+  dio: ^4.0.4
+  curved_navigation_bar: ^1.0.2
+  search_page: ^2.0.0+1
+  badges: ^2.0.2
+  animated_splash_screen: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/product-placeholder.png
+
+  # fonts:
+    # - family: Lato
+    #   fonts:
+    #     - asset: assets/fonts/Lato-Regular.ttf
+    #     - asset: assets/fonts/Lato-Bold.ttf
+    #       weight: 700
+    # - family: Anton
+    #   fonts:
+    #     - asset: assets/fonts/Anton-Regular.ttf
